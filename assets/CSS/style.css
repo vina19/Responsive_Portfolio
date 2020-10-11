@@ -1,7 +1,9 @@
+/* Apply for the whole webpage */
 *{
     box-sizing: border-box;
 }
 
+/* Apply to the body of all the pages */
 body {
     background-image: url("../img/225244882003202.jpg");
     background-position: center;
@@ -10,12 +12,13 @@ body {
     background-attachment: fixed;
 }
 
+/* Apply to the index.html, specifically for the paragraph section in the about me content */
 p {
     font-family: 'Acme', sans-serif;
     font-size: 17px;
-    text-align: justify;
 }
 
+/* Apply to the break line */
 hr {
     width: 100%;
     height: 2px;
@@ -24,89 +27,50 @@ hr {
     background-color: grey;
 }
 
+/* Apply to the title of each content in all of the pages */
 h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 48px;
     color: darkslategrey;
+    margin-top: -2%;
 }
 
+/* Apply to the list of the menu links inside the navbar */
 li {
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
 }
 
+/* Apply to specifically for the name inside the navbar */
 #my-name {
     font-family: 'Acme', sans-serif;
     font-size: 35px;
     color: darkslateblue;
 }
 
+/* Apply to the image inside the about me content */
 .container .media img {
-    width: 30px;
-    height: 25px;
+    width: 150px;
+    height: 100px;
     margin-bottom: 10%;
 }
 
+/* Apply to the all container in all the pages */
 .container {
-    padding: 35px;
+    padding: 50px;
+    margin-bottom: 5%;
     background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%); 
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: auto;
     object-fit: fill;
 }
 
-@media screen and (min-width: 400px) {
-
-    .container {
-        width: 100%;
-        margin-top: 10%;
-    }
-
-    .container .media img {
-        width: 20%;
-        height: 25%;
-    }
-
-    hr{
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    .container {
-        width: 100%;
-        margin-top: 20%;
-        column-width: 15em;
-    }
-
-    .container .media img {
-        width: 60%;
-        height: 65%;
-    }
-
-    hr{
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 992px) {
-
-    .container {
-        width: 50%;
-        margin-top: 20%;
-        column-width: 15em;
-    }
-
-    .container .media img {
-        width: 60%;
-        height: 65%;
-    }
-
-    hr{
-        width: 100%;
-    }
-
+/* Apply to the footer in all the pages */
+#webpage-footer {
+    padding: 25px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%); 
+    border-top: 5px solid #ff9a9e;
 }
