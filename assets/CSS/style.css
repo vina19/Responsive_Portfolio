@@ -1,30 +1,63 @@
-/* Apply for the whole webpage */
-*{
-    box-sizing: border-box;
-}
-
 /* Apply to the body of all the pages */
 body {
-    background-image: url("../img/810474.jpg");
+    background-image: url("../img/41634675c1aa3e48d697061ec641561b.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-/* Apply to the index.html, specifically for the paragraph section in the about me content */
-p {
-    font-family: 'Acme', sans-serif;
-    font-size: 17px;
+#top-navbar {
+    margin-bottom: 5px;
+    opacity: 0.8;
 }
 
-/* Apply to the break line */
-hr {
-    width: 100%;
-    height: 2px;
-    color: grey;
-    border-width: 0;
-    background-color: grey;
+/* Apply to specifically for the name inside the navbar */
+#my-name {
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    color: darkslateblue;
+}
+
+/* Apply to the list of the menu links inside the navbar */
+a#contact, a#portfolio, a#about {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+/* Apply to the paragraph section in the about me content */
+p, h4, h6 {
+    font-family: 'Acme', sans-serif;
+    font-size: 17px;
+    color: midnightblue;
+}
+
+/* Apply to the image container in the main page */
+#main-page-jumbotron {
+    background-color: gainsboro;
+    opacity: 0.9;
+}
+
+/* Apply to the image in the main page */
+img.vina-img {
+    display: block;
+    border-radius: 50% 50% 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 260px;
+    height: 250px;
+}
+
+.lead, h1 {
+    text-align: center;
+}
+
+.text-center a {
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 /* Apply to the title of each content in all of the pages */
@@ -35,42 +68,12 @@ h1 {
     margin-top: -2%;
 }
 
-/* Apply to the list of the menu links inside the navbar */
-li {
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 20px;
-}
-
-/* Apply to specifically for the name inside the navbar */
-#my-name {
-    font-family: 'Acme', sans-serif;
-    font-size: 35px;
-    color: darkslateblue;
-}
-
-/* Apply to the image inside the about me content */
-.container .media img {
-    width: 150px;
-    height: 100px;
-    margin-bottom: 10%;
-}
-
-/* Apply to the all container in all the pages */
-.container {
-    padding: 50px;
-    margin-bottom: 5%;
-    background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%); 
-    margin-top: 5%;
-    margin-left: auto;
-    object-fit: fill;
-}
-
 /* Apply to the footer in all the pages */
-#webpage-footer {
-    padding: 25px;
-    left: 0;
+footer {
+    padding: 30px;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%); 
-    border-top: 5px solid #ff9a9e;
+    opacity: 0.8;
+    position: fixed;
 }
