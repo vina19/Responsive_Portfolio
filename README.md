@@ -11,7 +11,7 @@
 
 ## Project Example
 
-    https://vina19.github.io/CSS_Bootstrap-Responsive_Portfolio/
+![alt text](https://vina19.github.io/Responsive_Portfolio/)
 
 ## My Responsive Portfolio
 #### The look of the pages in large screen:
