@@ -51,13 +51,26 @@ img.vina-img {
     height: 250px;
 }
 
-.lead, h1 {
+h1 {
     text-align: center;
+}
+
+p.lead {
+    text-align: center;
+    margin-bottom: 0%;
 }
 
 .text-center a {
     margin-right: 5px;
     margin-left: 5px;
+}
+
+p.email-phone-number {
+    text-align: center;
+    font-size: medium;
+    color: midnightblue;
+    margin-top: 0%;
+    margin-bottom: 10px;
 }
 
 a.btn.btn-primary {
@@ -78,7 +91,6 @@ a.btn.btn-primary:active {
     border-color: green;
 }
 
-
 /* Apply to the title of each content in all of the pages */
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -89,10 +101,16 @@ h1 {
 
 /* Apply to the footer in all the pages */
 footer {
-    padding: 30px;
+    background-color: gainsboro;
     position: absolute;
     bottom: 0;
     width: 100%;
     opacity: 0.8;
     position: fixed;
+}
+
+.footer-text {
+    color: black;
+    text-align: center;
+    margin-top: 15px;
 }
