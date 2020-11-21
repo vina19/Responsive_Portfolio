@@ -1,6 +1,6 @@
-# CSS_Bootstrap-Responsive_Portfolio
+# Vina Kurniasari Portfolio
 ## Description
-#### This repository is where I created a responsive portfolio using HTML, CSS, and Bootstrap. In here, it would have working links menu in the navbar that send the user to the three pages which are contact, portfolio, and about. Contact page would have a form asking name, email, and message. Portfolio page would have placeholder images. Lastly, About page would have my image, information about me, and a link to my lindkein site. Using Bootstrap Grid System, I would be able to adjust the look of the webpage accordingly to the size of the screen.
+#### This repository is where I created my responsive portfolio using HTML, CSS, and Bootstrap. In here, employers would be able to see my works and qualifications from the working links menu in the navbar which would send them to contact me, my portfolio, and about me pages. Contact page would have a form asking name, email, and message. Portfolio page would have my updated works. Lastly, About me page would have a little bit introduction about me, access to my resume and my social medias. Using Bootstrap Grid System, the users would be able to see the look of the webpage accordingly to the size of the screen.
 
 ## Installation
 #### In your terminal, clone this to the folder of your choice.
