@@ -152,3 +152,14 @@ footer {
     padding: 10px;
     margin-left: 10px;
 }
+
+.social-medias-box {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+}
+
+.col-links {
+    padding: 10px;
+    
+}
