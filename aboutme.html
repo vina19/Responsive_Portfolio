@@ -8,8 +8,16 @@
     <!-- Adding a favicon to the site. -->
     <link rel="icon" href="https://raisinglittlepearls.com/wp-content/uploads/2016/08/email-rose.png" type="image/png"/>
 
+    <!-- Adding a favicon to the site. -->
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/circle-avatars-1/128/050_girl_avatar_profile_woman_suit_student_officer-512.png" type="image/png"/>
+
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!-- CSS style -->
     <link rel="stylesheet"  href="assets/CSS/style.css">
+
+    <!-- Google font style -->
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
@@ -17,61 +25,77 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-steel fixed" style="background-color: hsla(0, 100%, 90%, 0.3);">
+    <!-- Navbar on te header of the webpage and make it fixed on the top -->
+    <nav class="navbar navbar-expand-md navbar-light bg-steel fixed" id="top-navbar">
+
+        <!-- Navbar with the working menu link to its own html page -->
         <a class="navbar-brand" id="my-name" href="index.html">Vina Kurniasari</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
+
+            <!-- Set the link to the margin left auto, so all the links will be on the left of the navbar-->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" id="contact" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" id="portfolio" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                    <a class="nav-link" id="about" href="aboutme.html">About Me</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- About me content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>About me</h1>
-                <hr>
-            </div>
+    <!-- A little bit story about me -->
+    <section class="jumbotron jumbotron-fluid" id="main-page-jumbotron">
+        <div class="container">
+            <h1 class="display-4">About Me</h1>
+            <br/>
+            <p class="lead">
+                In Spring 2020, I completed AAS degree in IT software development and currently being trained as a Full-Stack Web Developer by University of Minnesota Bootcamp Program.
+                I am from Indonesia and living in Minneapolis. My hobbies are traveling to experience different type of cultures, snorkling, cooking, and hiking.
+                My dream job is to work in a company that involves helping people through apps, specifically apps for a business related workplace.
+            </p>
         </div>
-        <div class="row single-post no gutters">
+    </section>
 
-            <!-- set the look of the content when the screen at large, medium, and small size -->
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="image-wrapper float-left pr-3">
-                    <img class="img-responsive" src="assets/img/11230717_1002174533128817_9111436052500122895_n.jpg" width="200" height="220" alt="main-vina's-image">
+    <!-- My skills content -->
+    <div class="jumbotron jumbotron-fluid" id="main-page-jumbotron" style="margin-bottom: 85px;">
+        <div class="container">
+            <h1 class="display-4">Skills</h1>
+            <br/>
+            <div class="row">
+                <div class="col-logos">
+                    <img class="logos" src="https://howtodoinjava.com/wp-content/uploads/2016/08/python.png" alt="python-programming-language-logo">
                 </div>
-                <div class="single-post-content-wrapper p-3">
-                    <p>Hello! I am Vina.</p>
-                    <p>I completed AAS degree in IT software development in Spring 2020 and I am currently in a process of developing my web developing skills by joining web developing Bootcamp from the U of M.</p>
-                    <p>I am originally from Indonesia and currently living in Minneapolis. My hobbies are traveling to experience different culture, snorkling, cooking, and hiking.</p>
-                    <p>My dream job is to work in a company that involves helping people through apps, specifically apps for a business related workplace.</p>
-                    <p>Would like to know more about me? <a href="https://www.linkedin.com/in/vinakurniasari94/">linkedin/vinakurniasari94.com</a></p>
+                <div class="col-logos">
+                    <img class="logos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript-programming-language-logo">
                 </div>
+                <div class="col-logos">
+                    <img class="logos" src="https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png" alt="node.js-logo">
+                </div>
+                
             </div>
         </div>
     </div>
-    
 
-    <footer class="page-footer" id="webpage-footer">
-      <div class="row" style="width: auto;">
-          <div class="col-md-12" ></div>
-      </div>
+
+    <!-- Set the footer to fixed to its place on the bottom of the page -->
+    <footer class="fixed-bottom">
+        <p class="footer-text">@2020 Created by Vina Kurniasari</p>
     </footer>
-
+    
+    <!-- JavaScript Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ec4f055225.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
