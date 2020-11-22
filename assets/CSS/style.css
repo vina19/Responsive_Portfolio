@@ -156,7 +156,7 @@ footer {
 .social-medias-box {
     padding: 10px;
     display: grid;
-    align-items: center;
+    justify-content: center;
 }
 
 .col-links {
