@@ -34,10 +34,9 @@ p, h4, h6 {
 }
 
 /* Apply to the image container in the main page */
-#main-page-jumbotron {
+#main-page-jumbotron, #contact-page-jumbotron {
     background-color: gainsboro;
     opacity: 0.9;
-    margin-bottom: 100px;
 }
 
 /* Apply to the image in the main page */
@@ -59,8 +58,21 @@ img.vina-img {
     border-radius: 50% 50% 50% 50%;
 }
 
+/* Apply to the title of each content in all of the pages */
 h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 48px;
+    color: darkslategrey;
+    margin-top: -2%;
     text-align: center;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 48px;
+    color: darkslategrey;
+    margin-top: -2%;
+    text-align: left;
 }
 
 p.lead {
@@ -99,13 +111,6 @@ a.btn.btn-primary:active {
     border-color: green;
 }
 
-/* Apply to the title of each content in all of the pages */
-h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 48px;
-    color: darkslategrey;
-    margin-top: -2%;
-}
 
 /* Apply to the footer in all the pages */
 footer {
@@ -113,7 +118,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    opacity: 0.8;
 }
 
 .footer-text {
