@@ -16,7 +16,7 @@ body {
 #my-name {
     font-family: 'Acme', sans-serif;
     font-size: 35px;
-    color: darkslateblue;
+    color: white;
 }
 
 /* Apply to the list of the menu links inside the navbar */
@@ -49,6 +49,12 @@ img.vina-img {
     margin-bottom: 15px;
     width: 260px;
     height: 250px;
+}
+
+.vina-icon {
+    width: 60px;
+    height: 60px;
+    float: left;
 }
 
 h1 {
