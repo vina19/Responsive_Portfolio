@@ -2,10 +2,15 @@
 ## Description
 #### This repository is where I created my responsive portfolio using HTML, CSS, and Bootstrap. In here, employers would be able to see my works and qualifications from the working links menu in the navbar which would send them to contact me, my portfolio, and about me pages. Contact page would have a form asking name, email, and message. Portfolio page would have my updated works. Lastly, About me page would have a little bit introduction about me, access to my resume and my social medias. Using Bootstrap Grid System, the users would be able to see the look of the webpage accordingly to the size of the screen.
 
+## Table of Content
+#### 1. [Description](##Description)
+#### 2. [License](##License)
+#### ![MIT](https://img.shields.io/static/v1?label=License&message=MIT&color=yellow)
+
 ## Installation
 #### In your terminal, clone this to the folder of your choice.
 
-    git@github.com:vina19/CSS_Bootstrap-Responsive_Portfolio.git
+    git@github.com:vina19/Responsive_Portfolio.git
 
 #### Access the folder with your favorite code editor.
 
@@ -37,7 +42,7 @@
 ## Contact:
     vinakurniasari94@gmail.com
 
-## The MIT License (MIT)
+## License
 #### Copyright © 2020 (Vina Kurniasari)
 
 #### Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
