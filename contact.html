@@ -59,32 +59,30 @@
 
             <!-- Created column for the whole form -->
             <div class = "col-md-8 col-md-offset-2">
-            
-                <!-- Created row inside the column with all the contact info -->
-                <div class="row">
-                    <div class="col-md-12 form-group">
-                        <label for="form-name">Name: </label>
-                        <input class="form-control" id="form-name" name="name" placeholder="Name" type="text" required/>
+                <form method="POST" action="mailto:vinakurniasari94@gmail.com">
+                    <!-- Created row inside the column with all the contact info -->
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <input class="form-control" id="form-name" name="name" placeholder="Name" type="text" required/>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 form-group">
-                        <label for="form-email">Email: </label>
-                        <input class="form-control" id="form-email" name="email" placeholder="Email" type="text" required/>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <input class="form-control" id="form-email" name="email" placeholder="Email" type="text" required/>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 form-group">
-                        <label for="form-message">Message: </label>
-                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-12 form-group">
-                        <button class="btn btn-primary" type="submit">Submit</button>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button type="submit">Send</button>
+                        </div>
                     </div>
-                </div>
+                </form>    
             </div>
         </div>
     </section>
